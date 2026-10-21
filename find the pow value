@@ -1,0 +1,18 @@
+#include <stdio.h>
+#include <stdlib.h>
+int main() {
+	int taban,us;
+	int tut=1;
+	printf("Taban degeri al-> ");
+	scanf("%d",&taban);
+	printf("Us degeri al-> ");
+	scanf("%d",&us);
+	int a;
+	for(a=1;a<=us;a++)
+	{
+		tut=tut*taban;
+	}
+	printf("Alinan sayini ussu-> %d",tut);	
+	
+	return 0;
+}
